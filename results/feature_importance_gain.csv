@@ -1,0 +1,16 @@
+,share_of_gain
+job_seniority,0.0127
+skill_overlap,0.0159
+expected_salary,0.0208
+english_code,0.0279
+log_salary_ratio,0.033
+salary_ratio,0.0363
+skill_jaccard,0.0427
+exp_above_max,0.0482
+min_years,0.0551
+years_experience,0.0568
+te_title_pair,0.0671
+seniority_gap,0.0906
+exp_in_range,0.0906
+exp_below_min,0.1161
+skill_coverage,0.1851

@@ -1,0 +1,64 @@
+{
+  "issues": {
+    "salary_currency_not_canonical": 96,
+    "salary_currency_counts": {
+      "USD": 3051,
+      "EUR": 1217,
+      "IRR": 732
+    },
+    "job_posted_date_dd_mm_yyyy": 102,
+    "min_years_experience_negative": 96,
+    "job_title_spelling_variants": 363,
+    "candidate_title_spelling_variants": 3526,
+    "candidate_location_spelling_variants": 1522,
+    "education_spelling_variants": 932,
+    "english_plain_language_scale": 7679,
+    "missing_share_jobs": {
+      "required_skills": 0.05,
+      "min_years_experience": 0.021,
+      "max_years_experience": 0.099,
+      "remote_allowed": 0.053,
+      "company_size": 0.075
+    },
+    "missing_share_candidates": {
+      "years_experience": 0.081,
+      "university": 0.247,
+      "previous_companies": 0.269,
+      "certifications": 0.564,
+      "english_proficiency": 0.103,
+      "willing_to_relocate": 0.154
+    },
+    "expected_salary_median_irr_cities": 92362.62935842937,
+    "expected_salary_median_other_cities": 92277.77864120204,
+    "irr_per_usd_estimated_from_data": 41572.3
+  },
+  "facts": {
+    "train_rows": 118772,
+    "test_rows": 52700,
+    "train_jobs": 3667,
+    "test_jobs": 1541,
+    "train_dates": [
+      "2023-01-01",
+      "2024-06-30"
+    ],
+    "test_dates": [
+      "2024-07-01",
+      "2025-01-30"
+    ],
+    "test_jobs_also_in_train": 0.135,
+    "candidates_in_both": 0.886,
+    "applicants_per_job_median": 29.0,
+    "label_share_train": {
+      "0": 0.363,
+      "1": 0.3,
+      "2": 0.2,
+      "3": 0.099,
+      "4": 0.037
+    },
+    "std_across_jobs_of_mean_label_jobs_ge_40": 0.0496,
+    "share_jobs_with_label4_by_size": {
+      "<20": 0.258,
+      ">=20": 0.948
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "by_job_seen_in_train": {
+    "false": {
+      "ndcg10": 0.8533,
+      "ap5": 0.6934,
+      "jobs": 1333
+    },
+    "true": {
+      "ndcg10": 0.8887,
+      "ap5": 0.743,
+      "jobs": 208
+    }
+  },
+  "by_applicants_per_job": {
+    "(0, 10]": {
+      "ndcg10": 0.9231,
+      "ap5": 0.8238,
+      "jobs": 93
+    },
+    "(10, 20]": {
+      "ndcg10": 0.8922,
+      "ap5": 0.7368,
+      "jobs": 308
+    },
+    "(20, 40]": {
+      "ndcg10": 0.8443,
+      "ap5": 0.6502,
+      "jobs": 697
+    },
+    "(40, 80]": {
+      "ndcg10": 0.8415,
+      "ap5": 0.7121,
+      "jobs": 390
+    },
+    "(80, 200]": {
+      "ndcg10": 0.8494,
+      "ap5": 0.8855,
+      "jobs": 53
+    }
+  },
+  "selected": {
+    "features": "lean (no time/profile, no within-job ranks)",
+    "params": {
+      "n_estimators": 1200,
+      "learning_rate": 0.015
+    },
+    "cv_ndcg10": 0.8633752719624977
+  }
+}
