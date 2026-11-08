@@ -101,7 +101,7 @@ breakdown = {
 json.dump(breakdown, open(OUT / "test_breakdown.json", "w"), indent=2, default=str)
 print(json.dumps(breakdown, indent=2, default=str))
 
-# predictions file (same format as the original submission: application_id, score)
+# predictions file: application_id, score (higher = better fit within the job)
 te[["application_id", "selected_score"]].rename(columns={"selected_score": "score"}) \
     .sort_values("application_id").to_csv(OUT / "test_predictions.csv", index=False)
 
